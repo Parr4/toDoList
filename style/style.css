@@ -1,0 +1,70 @@
+*{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+h6{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: black 1px solid;
+    margin: 0;
+}
+.listBit{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border: 1px solid black;
+
+}
+.green{
+    background-color: green;
+    color: white;
+}
+.red{
+    background-color: red;
+    color: white;
+}
+section{
+    padding: 2vh 0vh;
+}
+h1{
+    text-align: center;
+    padding: 2%;
+    text-transform: uppercase;
+    font-weight: bolder;
+    background-color: green;
+    color: white;
+}
+.container-fluid{
+    justify-content: center;
+    align-items: center;
+}
+
+.side{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 2%;
+}
+#add{
+    background-color: green;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-radius: 10px;
+    padding: 5px;
+    margin: 10px 0;
+}
+
+.trash:hover{
+    cursor: pointer;
+}
+.indicators{
+    margin-top: 10%;
+    font-weight: bolder;
+
+}
+
